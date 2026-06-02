@@ -512,15 +512,12 @@ export default function Home() {
         height="500"
         style={{ border: 0 }}
         loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
       />
 
     </div>
 
   </div>
 
-</section>
-      
 </section>
       {/* FOOTER */}
 
