@@ -108,26 +108,32 @@ export default function Home() {
               Découpage • Emboutissage • Tôlerie
             </p>
 
-            <h1 className="text-4xl lg:text-7xl font-black leading-[1] mb-8">
+            <h1 className="text-4xl lg:text-6xl font-black leading-tight mb-8">
 
-              La précision
+  Découpage,
+  <br />
 
-              <br />
+  <span className="text-blue-500">
+    Emboutissage
+  </span>
 
-              <span className="text-blue-500">
-                au service
-              </span>
+  <br />
 
-              <br />
+  et Tôlerie Industrielle
 
-              de l’industrie
+</h1>
 
-            </h1>
+            <p className="text-blue-100 text-xl leading-relaxed max-w-3xl mb-12">
 
-            <p className="text-blue-100 text-xl leading-relaxed max-w-2xl mb-12">
-              A.Marques Outillage accompagne les industriels dans la fabrication
-              de pièces métalliques techniques sur mesure depuis plus de 20 ans.
-            </p>
+  A.Marques Outillage est spécialisée dans le découpage,
+  l'emboutissage et la tôlerie industrielle en Seine-et-Marne.
+
+  Nous fabriquons des pièces métalliques techniques pour les
+  secteurs du ferroviaire, du médical, de l'aéronautique,
+  du spatial et de l'ameublement, ainsi que des glissières
+  d'assemblage pour sommiers et têtes de lit.
+
+</p>
 
             <div className="flex flex-wrap gap-5">
 
@@ -147,6 +153,25 @@ export default function Home() {
 
             </div>
 
+<div className="flex flex-wrap gap-4 mt-10">
+
+  <div className="bg-blue-950/60 px-5 py-3 rounded-xl border border-blue-800">
+    Découpage industriel
+  </div>
+
+  <div className="bg-blue-950/60 px-5 py-3 rounded-xl border border-blue-800">
+    Emboutissage
+  </div>
+
+  <div className="bg-blue-950/60 px-5 py-3 rounded-xl border border-blue-800">
+    Tôlerie industrielle
+  </div>
+
+  <div className="bg-blue-950/60 px-5 py-3 rounded-xl border border-blue-800">
+    Seine-et-Marne
+  </div>
+
+</div>
           </div>
 
         </div>
