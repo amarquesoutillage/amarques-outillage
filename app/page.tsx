@@ -481,7 +481,44 @@ export default function Home() {
         </div>
 
       </section>
+{/* CARTE GOOGLE MAPS */}
 
+<section className="py-24 bg-[#081321] border-t border-blue-950">
+
+  <div className="max-w-7xl mx-auto px-8">
+
+    <div className="text-center mb-12">
+
+      <p className="uppercase text-blue-400 tracking-[4px] font-semibold mb-4">
+        Nous trouver
+      </p>
+
+      <h2 className="text-5xl font-black mb-6">
+        Notre localisation
+      </h2>
+
+      <p className="text-blue-100 text-lg">
+        14 bis avenue de la Trentaine • 77500 Chelles
+      </p>
+
+    </div>
+
+    <div className="overflow-hidden rounded-[30px] shadow-2xl border border-blue-950">
+
+      <iframe
+        src="https://www.google.com/maps?q=14%20bis%20avenue%20de%20la%20Trentaine%2077500%20Chelles&output=embed"
+        width="100%"
+        height="500"
+        style={{ border: 0 }}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+
+    </div>
+
+  </div>
+
+</section>
       {/* FOOTER */}
 
       <footer className="border-t border-blue-950 py-8 bg-[#07111f]">
