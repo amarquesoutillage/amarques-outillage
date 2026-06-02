@@ -130,11 +130,10 @@ export default function Home() {
 
   Nous fabriquons des pièces métalliques techniques pour les
   secteurs du ferroviaire, du médical, de l'aéronautique,
-  du spatial et de l'ameublement, ainsi que des glissières
-  d'assemblage pour sommiers et têtes de lit.
+  du spatial et de l'ameublement.
 
 </p>
-
+<address></address>
             <div className="flex flex-wrap gap-5">
 
               <a
