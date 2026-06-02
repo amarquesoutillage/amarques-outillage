@@ -481,6 +481,7 @@ export default function Home() {
         </div>
 
       </section>
+
 {/* CARTE GOOGLE MAPS */}
 
 <section className="py-24 bg-[#081321] border-t border-blue-950">
@@ -518,6 +519,8 @@ export default function Home() {
 
   </div>
 
+</section>
+      
 </section>
       {/* FOOTER */}
 
